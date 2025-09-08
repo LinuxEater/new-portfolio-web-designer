@@ -68,6 +68,246 @@
     <div class="btn-ctr"><a>Get In Touch</a></div>
 </section>
 
+<section id="about">
+  <h1>About Me</h1>
+  <h2>Turning ideas into unique and engaging web experiences</h2>
+  <div class="about-section">
+    <div class="about-item">
+      <h4>My Journey</h4>
+      <p>I am Moisés Souza Santos, a Brazilian software engineer and full-stack developer passionate about creating high-quality web and mobile solutions. I specialize in building projects with Django, Python, JavaScript, React, HTML, CSS, Tailwind, Bootstrap, and PostgreSQL. My work combines efficient coding with modern UI/UX design, always focused on delivering functional, responsive, and visually appealing experiences.</p>
+      <p>I value organization, clear communication, and innovative problem-solving. I believe in building trust with clients, creating long-term relationships, and exploring opportunities to grow a software house while maintaining other revenue streams.</p>
+      <p>When I’m not coding or managing projects, I enjoy creative pursuits like Gaming and engaging with tech communities, always looking for new ways to merge my passion for technology, design, and entrepreneurship.</p>
+      <div class="about-small">
+        <div class="box-item">
+          <p>+100</p>
+          <small>Completed Projects</small>
+        </div>
+        <div class="box-item">
+          <p>+2</p>
+          <small>Years of Experience</small>
+        </div>
+      </div>
+    </div>
+    <div class="about-image">
+      <img src="{% static 'images/aboutimage.jpg' %}?v=3">
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <h2>My Services</h2>
+  <p class="subtitle">What I can do for you</p>
+  <div class="services-container">
+    <div class="service-card">
+      <h3>Web Development</h3>
+      <p>Building responsive, modern websites and applications with Django, React, and PostgreSQL.</p>
+    </div>
+    <div class="service-card">
+      <h3>UI/UX Design</h3>
+      <p>Designing user-friendly interfaces and experiences using Figma and modern design principles.</p>
+    </div>
+    <div class="service-card">
+      <h3>Consulting</h3>
+      <p>Providing professional guidance to optimize your tech projects and digital strategies.</p>
+    </div>
+    <div class="service-card">
+      <h3>Mobile Development</h3>
+      <p>Creating responsive and efficient mobile applications for iOS and Android platforms.</p>
+    </div>
+    <div class="service-card">
+      <h3>RPA Development</h3>
+      <p>Automating repetitive tasks and processes using Robotic Process Automation technologies.</p>
+    </div>
+    <div class="service-card">
+      <h3>Bots & Chatbots Development</h3>
+      <p>Building intelligent bots and chatbots to improve customer support and engagement.</p>
+    </div>
+  </div>
+</section>
+
+<section id="technologies" class="py-5" style="text-align: center; color: #fff;">
+  <h2 class="mb-4" style="color: #00f7ff; text-shadow: 0 0 8px rgba(0,247,255,0.5);">Technologies I Master</h2>
+
+  <div id="techCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+          <div class="tech-slide"><img src="{% static 'icons/python.png' %}" alt="Python"></div>
+          <div class="tech-slide"><img src="{% static 'icons/django.png' %}" alt="Django"></div>
+          <div class="tech-slide"><img src="{% static 'icons/javascript.png' %}" alt="JavaScript"></div>
+          <div class="tech-slide"><img src="{% static 'icons/react.png' %}" alt="React"></div>
+          <div class="tech-slide"><img src="{% static 'icons/react-native.png' %}" alt="React Native"></div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+          <div class="tech-slide"><img src="{% static 'icons/node.png' %}" alt="Node.js"></div>
+          <div class="tech-slide"><img src="{% static 'icons/angular.png' %}" alt="Angular"></div>
+          <div class="tech-slide"><img src="{% static 'icons/html.png' %}" alt="HTML"></div>
+          <div class="tech-slide"><img src="{% static 'icons/css.png' %}" alt="CSS"></div>
+          <div class="tech-slide"><img src="{% static 'icons/tailwind.png' %}" alt="Tailwind"></div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+          <div class="tech-slide"><img src="{% static 'icons/postgresql.png' %}" alt="PostgreSQL"></div>
+          <div class="tech-slide"><img src="{% static 'icons/sqlite.png' %}" alt="SQLite"></div>
+          <div class="tech-slide"><img src="{% static 'icons/mongo.png' %}" alt="MongoDB"></div>
+          <div class="tech-slide"><img src="{% static 'icons/mysql.png' %}" alt="MySQL"></div>
+          <div class="tech-slide"><img src="{% static 'icons/firebase.png' %}" alt="Firebase"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#techCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(100%) drop-shadow(0 0 6px #00f7ff);"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#techCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(100%) drop-shadow(0 0 6px #00f7ff);"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<section id="faq" class="py-5" style="background-color: #111827; color: #fff;">
+  <div class="container">
+    <h2 class="text-center mb-5" style="color: #00f7ff; text-shadow: 0 0 8px rgba(0,247,255,0.5);">Frequently Asked Questions</h2>
+
+    <div class="accordion" id="faqAccordion">
+
+      <!-- Questão 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading1">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="false" aria-controls="faqCollapse1">
+            What services do you offer?
+          </button>
+        </h2>
+        <div id="faqCollapse1" class="accordion-collapse collapse" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            I provide web development, mobile development, RPA, bots and chatbots, and consulting services.
+          </div>
+        </div>
+      </div>
+
+      <!-- Questão 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+            How can I hire you?
+          </button>
+        </h2>
+        <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            You can contact me through the contact section below, and I will get back to you promptly.
+          </div>
+        </div>
+      </div>
+
+      <!-- Questão 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+            Do you offer remote services?
+          </button>
+        </h2>
+        <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes! I work with clients worldwide via online communication and project management tools.
+          </div>
+        </div>
+      </div>
+
+      <!-- Questão 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading4">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+            What payment methods do you accept?
+          </button>
+        </h2>
+        <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            I accept Wise, PicPay, PagSeguro, Pix, and MercadoPago.
+          </div>
+        </div>
+      </div>
+
+      <!-- Questão 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading5">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+            Do you accept payment in installments?
+          </button>
+        </h2>
+        <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes! I accept 50% payment at the start and 50% at the end of the project. I also offer installment options if needed.
+          </div>
+        </div>
+      </div>
+
+      <!-- Questão 6 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading6">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+            What kind of support do you offer?
+          </button>
+        </h2>
+        <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            I provide full support during and after the project, including troubleshooting, maintenance, and updates.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="py-5" style="background-color: #222; color: #fff; text-align: center;">
+  <div class="container">
+    <h2 class="mb-4" style="color: #00f7ff; text-shadow: 0 0 8px rgba(0,247,255,0.5);">Contact Me</h2>
+
+    <div class="contact-card p-5 rounded" onclick="window.location.href='/contact-page';">
+      <h3 style="color: #00f7ff;">Let's Work Together!</h3>
+      <p style="color: #e5e7eb;">Click here to go to the contact form and send me your project details.</p>
+      <button class="btn btn-neon mt-3">Go to Contact Page</button>
+    </div>
+  </div>
+</section>
+
+
+<footer class="site-footer py-4" style="background-color: #111827; color: #e5e7eb;">
+  <div class="container text-center">
+    <!-- Logo / Nome -->
+    <h3 style="color: #00f7ff; text-shadow: 0 0 8px rgba(0,247,255,0.5);">Dev.Souza</h3>
+
+    <!-- Links rápidos -->
+    <ul class="footer-links list-unstyled d-flex justify-content-center gap-4 mt-3 mb-3">
+      <li><a href="#about" class="footer-link">About</a></li>
+      <li><a href="#services" class="footer-link">Services</a></li>
+      <li><a href="#technologies" class="footer-link">Technologies</a></li>
+      <li><a href="#faq" class="footer-link">FAQ</a></li>
+      <li><a href="#contact" class="footer-link">Contact</a></li>
+    </ul>
+
+    <!-- Redes sociais -->
+    <div class="social-links mb-3">
+      <a href="https://github.com/username" target="_blank" class="social-link">GitHub</a> |
+      <a href="https://linkedin.com/in/username" target="_blank" class="social-link">LinkedIn</a> |
+      <a href="https://twitter.com/username" target="_blank" class="social-link">Twitter</a>
+    </div>
+
+    <!-- Copyright -->
+    <p style="font-size: 0.9rem;">&copy; 2025 Dev.Souza. All rights reserved.</p>
+  </div>
+</footer>
 
         
         <script src="{% static 'js/script.js' %}?v=2" async defer></script>

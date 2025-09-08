@@ -44,3 +44,24 @@ function typeWriter() {
 }
 
 document.addEventListener("DOMContentLoaded", typeWriter);
+
+//carousel
+const track = document.querySelector('.carousel-track');
+const btnLeft = document.querySelector('.carousel-btn.left');
+const btnRight = document.querySelector('.carousel-btn.right');
+
+let position = 0;
+const slideWidth = 140; // largura + gap
+
+btnLeft.addEventListener('click', () => {
+    position += slideWidth;
+    if(position > 0) position = -(track.scrollWidth - track.clientWidth);
+    track.style.transform = `translateX(${position}px)`;
+});
+
+btnRight.addEventListener('click', () => {
+    position -= slideWidth;
+    if(Math.abs(position) > track.scrollWidth - track.clientWidth) position = 0;
+    track.style.transform = `translateX(${position}px)`;
+});
+
