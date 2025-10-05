@@ -53,15 +53,54 @@ const btnRight = document.querySelector('.carousel-btn.right');
 let position = 0;
 const slideWidth = 140; // largura + gap
 
-btnLeft.addEventListener('click', () => {
-    position += slideWidth;
-    if(position > 0) position = -(track.scrollWidth - track.clientWidth);
-    track.style.transform = `translateX(${position}px)`;
-});
+if (btnLeft && btnRight) {
+    btnLeft.addEventListener('click', () => {
+        position += slideWidth;
+        if(position > 0) position = -(track.scrollWidth - track.clientWidth);
+        track.style.transform = `translateX(${position}px)`;
+    });
 
-btnRight.addEventListener('click', () => {
-    position -= slideWidth;
-    if(Math.abs(position) > track.scrollWidth - track.clientWidth) position = 0;
-    track.style.transform = `translateX(${position}px)`;
-});
+    btnRight.addEventListener('click', () => {
+        position -= slideWidth;
+        if(Math.abs(position) > track.scrollWidth - track.clientWidth) position = 0;
+        track.style.transform = `translateX(${position}px)`;
+    });
+}
 
+
+// Language Switcher
+function changeLanguage(lang) {
+    const elements = document.querySelectorAll('[data-translate]');
+    elements.forEach(element => {
+        const key = element.getAttribute('data-translate');
+        if (translations[lang] && translations[lang][key]) {
+            element.innerHTML = translations[lang][key];
+        }
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const languageSwitcher = document.getElementById('language-switcher');
+  let currentLang = 'en'; // Default language
+
+  // Set initial language
+  changeLanguage(currentLang);
+
+  if (languageSwitcher) {
+    const flags = languageSwitcher.querySelectorAll('.flag');
+
+    languageSwitcher.addEventListener('click', () => {
+      flags.forEach(flag => {
+        flag.classList.toggle('active');
+      });
+
+      const activeFlag = languageSwitcher.querySelector('.flag.active');
+      if (activeFlag.alt === 'USA Flag') {
+        currentLang = 'en';
+      } else {
+        currentLang = 'pt-br';
+      }
+      changeLanguage(currentLang);
+    });
+  }
+});

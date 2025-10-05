@@ -1,0 +1,431 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025
+# This file is distributed under the same license as the new_portfolio_webdesign package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: new_portfolio_webdesign 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-05 14:00-0300\n"
+"PO-Revision-Date: 2025-10-05 14:00-0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: templates/home.html:11 templates/home.html:30
+msgid "Home"
+msgstr "Início"
+
+#: templates/home.html:33 templates/projects.html:31
+msgid "Projects"
+msgstr "Projetos"
+
+#: templates/home.html:36 templates/projects.html:34
+msgid "Skills"
+msgstr "Habilidades"
+
+#: templates/home.html:39 templates/projects.html:37
+msgid "Services"
+msgstr "Serviços"
+
+#: templates/home.html:42 templates/projects.html:40
+msgid "More"
+msgstr "Mais"
+
+#: templates/home.html:45 templates/projects.html:43
+msgid "About"
+msgstr "Sobre"
+
+#: templates/home.html:46 templates/projects.html:44
+msgid "Blog"
+msgstr "Blog"
+
+#: templates/home.html:49 templates/projects.html:47
+msgid "GitHub"
+msgstr "GitHub"
+
+#: templates/home.html:62
+msgid "HIRE ME"
+msgstr "CONTRATE-ME"
+
+#: templates/home.html:72
+msgid "Transforming ideas into exceptional digital experiences with clean code and modern design."
+msgstr "Transformando ideias em experiências digitais excepcionais com código limpo e design moderno."
+
+#: templates/home.html:76
+msgid "Dedicated"
+msgstr "Dedicado"
+
+#: templates/home.html:77
+msgid "Punctual"
+msgstr "Pontual"
+
+#: templates/home.html:78
+msgid "Transparent"
+msgstr "Transparente"
+
+#: templates/home.html:79
+msgid "Committed"
+msgstr "Comprometido"
+
+#: templates/home.html:81
+msgid "Get In Touch"
+msgstr "Entre em Contato"
+
+#: templates/home.html:85
+msgid "About Me"
+msgstr "Sobre Mim"
+
+#: templates/home.html:86
+msgid "Turning ideas into unique and engaging web experiences"
+msgstr "Transformando ideias em experiências web únicas e envolventes"
+
+#: templates/home.html:88
+msgid "My Journey"
+msgstr "Minha Jornada"
+
+#: templates/home.html:89
+msgid "I am Moisés Souza Santos, a Brazilian software engineer and full-stack developer passionate about creating high-quality web and mobile solutions. I specialize in building projects with Django, Python, JavaScript, React, HTML, CSS, Tailwind, Bootstrap, and PostgreSQL. My work combines efficient coding with modern UI/UX design, always focused on delivering functional, responsive, and visually appealing experiences."
+msgstr "Eu sou Moisés Souza Santos, um engenheiro de software brasileiro e desenvolvedor full-stack apaixonado por criar soluções web e mobile de alta qualidade. Sou especialista em construir projetos com Django, Python, JavaScript, React, HTML, CSS, Tailwind, Bootstrap e PostgreSQL. Meu trabalho combina codificação eficiente com design moderno de UI/UX, sempre focado em entregar experiências funcionais, responsivas e visualmente atraentes."
+
+#: templates/home.html:90
+msgid "I value organization, clear communication, and innovative problem-solving. I believe in building trust with clients, creating long-term relationships, and exploring opportunities to grow a software house while maintaining other revenue streams."
+msgstr "Eu valorizo organização, comunicação clara e resolução de problemas inovadora. Acredito na construção de confiança com os clientes, criando relacionamentos de longo prazo e explorando oportunidades para crescer uma software house enquanto mantenho outras fontes de receita."
+
+#: templates/home.html:91
+msgid "When I’m not coding or managing projects, I enjoy creative pursuits like Gaming and engaging with tech communities, always looking for new ways to merge my passion for technology, design, and entrepreneurship."
+msgstr "Quando não estou codificando ou gerenciando projetos, eu gosto de atividades criativas como Jogos e de me envolver com comunidades de tecnologia, sempre procurando novas maneiras de unir minha paixão por tecnologia, design e empreendedorismo."
+
+#: templates/home.html:95
+msgid "Completed Projects"
+msgstr "Projetos Concluídos"
+
+#: templates/home.html:99
+msgid "Years of Experience"
+msgstr "Anos de Experiência"
+
+#: templates/home.html:108
+msgid "My Services"
+msgstr "Meus Serviços"
+
+#: templates/home.html:109
+msgid "What I can do for you"
+msgstr "O que eu posso fazer por você"
+
+#: templates/home.html:112
+msgid "Web Development"
+msgstr "Desenvolvimento Web"
+
+#: templates/home.html:113
+msgid "Building responsive, modern websites and applications with Django, React, and PostgreSQL."
+msgstr "Construindo sites e aplicações responsivas e modernas com Django, React e PostgreSQL."
+
+#: templates/home.html:116
+msgid "UI/UX Design"
+msgstr "UI/UX Design"
+
+#: templates/home.html:117
+msgid "Designing user-friendly interfaces and experiences using Figma and modern design principles."
+msgstr "Desenhando interfaces e experiências amigáveis ao usuário usando Figma e princípios de design moderno."
+
+#: templates/home.html:120
+msgid "Consulting"
+msgstr "Consultoria"
+
+#: templates/home.html:121
+msgid "Providing professional guidance to optimize your tech projects and digital strategies."
+msgstr "Fornecendo orientação profissional para otimizar seus projetos de tecnologia e estratégias digitais."
+
+#: templates/home.html:124
+msgid "Mobile Development"
+msgstr "Desenvolvimento Mobile"
+
+#: templates/home.html:125
+msgid "Creating responsive and efficient mobile applications for iOS and Android platforms."
+msgstr "Criando aplicações mobile responsivas e eficientes para as plataformas iOS e Android."
+
+#: templates/home.html:128
+msgid "RPA Development"
+msgstr "Desenvolvimento RPA"
+
+#: templates/home.html:129
+msgid "Automating repetitive tasks and processes using Robotic Process Automation technologies."
+msgstr "Automatizando tarefas e processos repetitivos usando tecnologias de Automação de Processos Robóticos."
+
+#: templates/home.html:132
+msgid "Bots & Chatbots Development"
+msgstr "Desenvolvimento de Bots & Chatbots"
+
+#: templates/home.html:133
+msgid "Building intelligent bots and chatbots to improve customer support and engagement."
+msgstr "Construindo bots e chatbots inteligentes para melhorar o suporte ao cliente e o engajamento."
+
+#: templates/home.html:166
+msgid "Previous"
+msgstr "Anterior"
+
+#: templates/home.html:170
+msgid "Next"
+msgstr "Próximo"
+
+#: templates/home.html:175
+msgid "Frequently Asked Questions"
+msgstr "Perguntas Frequentes"
+
+#: templates/home.html:181
+msgid "What services do you offer?"
+msgstr "Quais serviços você oferece?"
+
+#: templates/home.html:186
+msgid "I provide web development, mobile development, RPA, bots and chatbots, and consulting services."
+msgstr "Eu forneço serviços de desenvolvimento web, desenvolvimento mobile, RPA, bots e chatbots e consultoria."
+
+#: templates/home.html:192
+msgid "How can I hire you?"
+msgstr "Como posso te contratar?"
+
+#: templates/home.html:197
+msgid "You can contact me through the contact section below, and I will get back to you promptly."
+msgstr "Você pode me contatar através da seção de contato abaixo, e eu retornarei para você prontamente."
+
+#: templates/home.html:203
+msgid "Do you offer remote services?"
+msgstr "Você oferece serviços remotos?"
+
+#: templates/home.html:208
+msgid "Yes! I work with clients worldwide via online communication and project management tools."
+msgstr "Sim! Eu trabalho com clientes do mundo todo através de ferramentas de comunicação online e gerenciamento de projetos."
+
+#: templates/home.html:214
+msgid "What payment methods do you accept?"
+msgstr "Quais métodos de pagamento você aceita?"
+
+#: templates/home.html:219
+msgid "I accept Wise, PicPay, PagSeguro, Pix, and MercadoPago."
+msgstr "Eu aceito Wise, PicPay, PagSeguro, Pix e MercadoPago."
+
+#: templates/home.html:225
+msgid "Do you accept payment in installments?"
+msgstr "Você aceita pagamento parcelado?"
+
+#: templates/home.html:230
+msgid "Yes! I accept 50% payment at the start and 50% at the end of the project. I also offer installment options if needed."
+msgstr "Sim! Eu aceito 50% do pagamento no início e 50% no final do projeto. Eu também ofereço opções de parcelamento se necessário."
+
+#: templates/home.html:236
+msgid "What kind of support do you offer?"
+msgstr "Que tipo de suporte você oferece?"
+
+#: templates/home.html:241
+msgid "I provide full support during and after the project, including troubleshooting, maintenance, and updates."
+msgstr "Eu forneço suporte completo durante e após o projeto, incluindo resolução de problemas, manutenção e atualizações."
+
+#: templates/home.html:251
+msgid "Contact Me"
+msgstr "Contate-me"
+
+#: templates/home.html:254
+msgid "Let's Work Together!"
+msgstr "Vamos Trabalhar Juntos!"
+
+#: templates/home.html:255
+msgid "Click here to go to the contact form and send me your project details."
+msgstr "Clique aqui para ir para o formulário de contato e me enviar os detalhes do seu projeto."
+
+#: templates/home.html:256
+msgid "Budget"
+msgstr "Orçamento"
+
+#: templates/home.html:268
+msgid "Technologies"
+msgstr "Tecnologias"
+
+#: templates/home.html:270
+msgid "FAQ"
+msgstr "FAQ"
+
+#: templates/home.html:271
+msgid "Contact"
+msgstr "Contato"
+
+#: templates/home.html:276
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: templates/home.html:281
+msgid "All rights reserved."
+msgstr "Todos os direitos reservados."
+
+#: templates/projects.html:63
+msgid "My Projects"
+msgstr "Meus Projetos"
+
+#: templates/projects.html:64
+msgid "Here are some of the projects I’ve worked on, from web apps to mobile applications. Click on any project to see more details or get in touch."
+msgstr "Aqui estão alguns dos projetos em que trabalhei, de aplicativos da web a aplicativos móveis. Clique em qualquer projeto para ver mais detalhes ou entre em contato."
+
+#: templates/projects.html:71
+msgid "Web App for E-commerce"
+msgstr "Aplicação Web para E-commerce"
+
+#: templates/projects.html:72
+msgid "Modern e-commerce platform built with Django and React, featuring secure payment integrations and responsive design."
+msgstr "Moderna plataforma de e-commerce construída com Django e React, com integrações de pagamento seguras e design responsivo."
+
+#: templates/projects.html:73
+msgid "View Project"
+msgstr "Ver Projeto"
+
+#: templates/projects.html:77
+msgid "Mobile App for Delivery"
+msgstr "Aplicativo Mobile para Delivery"
+
+#: templates/projects.html:78
+msgid "Cross-platform mobile app developed with React Native, with real-time tracking and push notifications."
+msgstr "Aplicativo móvel multiplataforma desenvolvido com React Native, com rastreamento em tempo real e notificações push."
+
+#: templates/projects.html:83
+msgid "RPA Automation Tool"
+msgstr "Ferramenta de Automação RPA"
+
+#: templates/projects.html:84
+msgid "Robotic Process Automation solution using Python and RPA frameworks to automate repetitive business tasks."
+msgstr "Solução de automação de processos robóticos usando Python e frameworks RPA para automatizar tarefas de negócios repetitivas."
+
+#: templates/projects.html:89
+msgid "Chatbot & Bots Development"
+msgstr "Desenvolvimento de Chatbot & Bots"
+
+#: templates/projects.html:90
+msgid "Intelligent bots and chatbots built with Node.js and Python to enhance customer support and automate workflows."
+msgstr "Bots e chatbots inteligentes construídos com Node.js e Python para aprimorar o suporte ao cliente e automatizar fluxos de trabalho."
+
+#: templates/projects.html:95
+msgid "Admin Dashboard"
+msgstr "Painel de Administração"
+
+#: templates/projects.html:96
+msgid "Interactive admin dashboard built with Angular and Chart.js to visualize company metrics in real-time."
+msgstr "Painel de administração interativo construído com Angular e Chart.js para visualizar métricas da empresa em tempo real."
+
+#: templates/projects.html:101
+msgid "Social Media App"
+msgstr "Aplicativo de Mídia Social"
+
+#: templates/projects.html:102
+msgid "Full-featured social media platform built with React.js and Firebase, including messaging, posts, and notifications."
+msgstr "Plataforma de mídia social com todos os recursos construída com React.js e Firebase, incluindo mensagens, postagens e notificações."
+
+#: templates/projects.html:107
+msgid "Inventory Management"
+msgstr "Gerenciamento de Inventário"
+
+#: templates/projects.html:108
+msgid "Inventory system using Node.js and MongoDB to manage stock levels, suppliers, and orders efficiently."
+msgstr "Sistema de inventário usando Node.js e MongoDB para gerenciar níveis de estoque, fornecedores e pedidos de forma eficiente."
+
+#: templates/projects.html:113
+msgid "Finance Tracker"
+msgstr "Rastreador de Finanças"
+
+#: templates/projects.html:114
+msgid "Personal finance tracking app built with React Native and SQLite, helping users manage income and expenses."
+msgstr "Aplicativo de rastreamento de finanças pessoais desenvolvido com React Native e SQLite, ajudando os usuários a gerenciar receitas e despesas."
+
+#: templates/projects.html:121
+msgid "Want to see more projects like this?"
+msgstr "Quer ver mais projetos como este?"
+
+#: templates/projects.html:122
+msgid "Follow my personal blog to explore videos, images, and full documentation of all my work."
+msgstr "Siga meu blog pessoal para explorar vídeos, imagens e documentação completa de todo o meu trabalho."
+
+#: templates/projects.html:124
+msgid "Visit My Blog"
+msgstr "Visite Meu Blog"
+
+#: templates/budget.html:63
+msgid "Request a Quote"
+msgstr "Solicite um Orçamento"
+
+#: templates/budget.html:64
+msgid "Please fill out the form below with the details of your project. Include what features or functionality you want, your goals, and any other important information. You can also contact me directly, or I will reach out to you after receiving your request."
+msgstr "Por favor, preencha o formulário abaixo com os detalhes do seu projeto. Inclua quais recursos ou funcionalidades você deseja, seus objetivos e qualquer outra informação importante. Você também pode me contatar diretamente, ou eu entrarei em contato com você após receber sua solicitação."
+
+#: templates/budget.html:71
+msgid "Full Name"
+msgstr "Nome Completo"
+
+#: templates/budget.html:75
+msgid "Email Address"
+msgstr "Endereço de Email"
+
+#: templates/budget.html:79
+msgid "Phone"
+msgstr "Telefone"
+
+#: templates/budget.html:83
+msgid "Project Type"
+msgstr "Tipo de Projeto"
+
+#: templates/budget.html:85
+msgid "Select a project type"
+msgstr "Selecione um tipo de projeto"
+
+#: templates/budget.html:95
+msgid "Project Details"
+msgstr "Detalhes do Projeto"
+
+#: templates/budget.html:100
+msgid "Describe your project, desired features, and goals. You can also ask questions. I will review this and contact you."
+msgstr "Descreva seu projeto, recursos desejados e objetivos. Você também pode fazer perguntas. Eu revisarei e entrarei em contato com você."
+
+#: templates/budget.html:104
+msgid "Estimated Budget (Optional)"
+msgstr "Orçamento Estimado (Opcional)"
+
+#: templates/budget.html:108
+msgid "Project Deadline (Optional)"
+msgstr "Prazo do Projeto (Opcional)"
+
+#: templates/budget.html:112
+msgid "Preferred Payment Method"
+msgstr "Método de Pagamento Preferido"
+
+#: templates/budget.html:114
+msgid "Select a payment method"
+msgstr "Selecione um método de pagamento"
+
+#: templates/budget.html:123
+msgid "Payment Terms"
+msgstr "Termos de Pagamento"
+
+#: templates/budget.html:125
+msgid "50% upfront, 50% at delivery"
+msgstr "50% adiantado, 50% na entrega"
+
+#: templates/budget.html:126
+msgid "Installments"
+msgstr "Parcelas"
+
+#: templates/budget.html:130
+msgid "Send Quote Request"
+msgstr "Enviar Pedido de Orçamento"
+
+#: templates/budget.html:137
+msgid "Want to see projects and know my job?"
+msgstr "Quer ver projetos e conhecer meu trabalho?"
+
+#: templates/budget.html:138
+msgid "Follow my personal blog to explore videos, images, and full documentation of all my work."
+msgstr "Siga meu blog pessoal para explorar vídeos, imagens e documentação completa de todo o meu trabalho."
+
+#: templates/budget.html:140
+msgid "Visit My Blog"
+msgstr "Visite Meu Blog"
