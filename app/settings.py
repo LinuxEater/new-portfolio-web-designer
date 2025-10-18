@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-aq9@rdr^)8y61+7_la@(29mt2yl=@kp-%vo+ecc!s08xk!fwx_'
+SECRET_KEY = '###########################'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -132,8 +132,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Email settings for contact form
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP server
-EMAIL_PORT = 587
+EMAIL_HOST = '#################'  # Replace with your SMTP server
+EMAIL_PORT = ##################
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'moisessouzasantos001@gmail.com'  # Replace with your email address
-EMAIL_HOST_PASSWORD = 'yjzjwlitskqvvhkx'  # Replace with your email password
+EMAIL_HOST_USER = '#######################'  # Replace with your email address
+EMAIL_HOST_PASSWORD = '###############'  # Replace with your email password
