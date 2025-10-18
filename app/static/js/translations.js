@@ -59,6 +59,9 @@ const translations = {
     technologies: "Technologies",
     contact: "Contact",
     linkedin: "LinkedIn",
+    telegram: "Telegram",
+    whatsapp: "WhatsApp",
+    instagram: "Instagram",
     all_rights_reserved: "All rights reserved.",
     my_projects: "My Projects",
     projects_subtitle: "Here are some of the projects I’ve worked on, from web apps to mobile applications. Click on any project to see more details or get in touch.",
@@ -100,7 +103,19 @@ const translations = {
     send_quote_request: "Send Quote Request",
     more_projects_title_2: "Want to see projects and know my job?",
     more_projects_desc_2: "Follow my personal blog to explore videos, images, and full documentation of all my work.",
-    visit_blog_2: "Visit My Blog"
+    visit_blog_2: "Visit My Blog",
+    dev_souza_footer: "Dev.Souza",
+    budget_title: "Dev.Souza | Budget",
+    john_doe_placeholder: "John Doe",
+    email_placeholder: "you@example.com",
+    phone_placeholder: "+55 99999-9999",
+    project_details_placeholder: "Describe your project, desired features, and goals. You can also ask questions. I will review this and contact you.",
+    budget_placeholder: "Ex: $500 - $1000",
+    projects_title: "Dev.Souza | Projects",
+    budget_success_title: "Dev.Souza | Budget Success",
+    success_title: "Success!",
+    success_message: "Your budget request has been sent successfully. We will get back to you shortly.",
+    go_to_home: "Go to Home"
   },
   "pt-br": {
     home: "Início",
@@ -151,9 +166,9 @@ const translations = {
     faq3_answer: "Sim! Eu trabalho com clientes do mundo todo através de ferramentas de comunicação online e gerenciamento de projetos.",
     faq4_question: "Quais métodos de pagamento você aceita?",
     faq4_answer: "Eu aceito Wise, PicPay, PagSeguro, Pix e MercadoPago.",
-    faq5_question: "Você aceita pagamento parcelado?",
+    faq5_question: "Do you accept payment in installments?",
     faq5_answer: "Sim! Eu aceito 50% do pagamento no início e 50% no final do projeto. Eu também ofereço opções de parcelamento se necessário.",
-    faq6_question: "Que tipo de suporte você oferece?",
+    faq6_question: "What kind of support do you offer?",
     faq6_answer: "Eu forneço suporte completo durante e após o projeto, incluindo resolução de problemas, manutenção e atualizações.",
     contact_me: "Contate-me",
     lets_work_together: "Vamos Trabalhar Juntos!",
@@ -176,7 +191,7 @@ const translations = {
     project4_desc: "Bots e chatbots inteligentes construídos com Node.js e Python para aprimorar o suporte ao cliente e automatizar fluxos de trabalho.",
     project5_title: "Painel de Administração",
     project5_desc: "Painel de administração interativo construído com Angular e Chart.js para visualizar métricas da empresa em tempo real.",
-    project6_title: "Aplicativo de Mídia Social",
+    project6_title: "Social Media App",
     project6_desc: "Plataforma de mídia social com todos os recursos construída com React.js e Firebase, incluindo mensagens, postagens e notificações.",
     project7_title: "Gerenciamento de Inventário",
     project7_desc: "Sistema de inventário usando Node.js e MongoDB para gerenciar níveis de estoque, fornecedores e pedidos de forma eficiente.",
@@ -201,8 +216,8 @@ const translations = {
     "50_50_payment": "50% adiantado, 50% na entrega",
     installments: "Parcelas",
     send_quote_request: "Enviar Pedido de Orçamento",
-    more_projects_title_2: "Quer ver projetos e conhecer meu trabalho?",
-    more_projects_desc_2: "Siga meu blog pessoal para explorar vídeos, imagens e documentação completa de todo o meu trabalho.",
-    visit_blog_2: "Visite Meu Blog"
+    more_projects_title_2: "Want to see projects and know my job?",
+    more_projects_desc_2: "Follow my personal blog to explore videos, images, and full documentation of all my work.",
+    visit_blog_2: "Visit My Blog"
   }
 };

@@ -77,29 +77,46 @@ function changeLanguage(lang) {
             element.innerHTML = translations[lang][key];
         }
     });
+    // Store the selected language in localStorage
+    localStorage.setItem('selectedLanguage', lang);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
   const languageSwitcher = document.getElementById('language-switcher');
-  let currentLang = 'en'; // Default language
+  // Retrieve the selected language from localStorage, default to 'en'
+  let currentLang = localStorage.getItem('selectedLanguage') || 'en';
 
   // Set initial language
   changeLanguage(currentLang);
 
+  // Update flag active state based on currentLang
   if (languageSwitcher) {
     const flags = languageSwitcher.querySelectorAll('.flag');
+    flags.forEach(flag => {
+      if ((currentLang === 'en' && flag.alt === 'USA Flag') || (currentLang === 'pt-br' && flag.alt === 'Brazil Flag')) {
+        flag.classList.add('active');
+      } else {
+        flag.classList.remove('active');
+      }
+    });
 
     languageSwitcher.addEventListener('click', () => {
+      // Determine the new language
+      if (currentLang === 'en') {
+        currentLang = 'pt-br';
+      } else {
+        currentLang = 'en';
+      }
+
+      // Update flag active state based on the new currentLang
       flags.forEach(flag => {
-        flag.classList.toggle('active');
+        if ((currentLang === 'en' && flag.alt === 'USA Flag') || (currentLang === 'pt-br' && flag.alt === 'Brazil Flag')) {
+          flag.classList.add('active');
+        } else {
+          flag.classList.remove('active');
+        }
       });
 
-      const activeFlag = languageSwitcher.querySelector('.flag.active');
-      if (activeFlag.alt === 'USA Flag') {
-        currentLang = 'en';
-      } else {
-        currentLang = 'pt-br';
-      }
       changeLanguage(currentLang);
     });
   }

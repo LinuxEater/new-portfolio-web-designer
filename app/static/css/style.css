@@ -116,14 +116,31 @@ html {
 
 }
 
+
 #hero{
     height: 100vh;
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative; /* Adicionado para posicionamento absoluto dos filhos */
+    overflow: hidden; /* Garante que as partículas não transbordem */
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Garante que as partículas fiquem no fundo */
+}
+
+/* Ajusta o z-index para o conteúdo da hero section ficar acima das partículas */
+#hero > *:not(#particles-js) {
+    position: relative;
+    z-index: 1;
 }
 
 #typewriter {

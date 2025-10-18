@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -9,7 +10,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Dev.Souza | Projects</title>
+        <title data-translate="projects_title">Dev.Souza | Projects</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <meta name="description" content="">
@@ -55,8 +56,8 @@
           </li>
         </ul>
         <div id="language-switcher" class="language-switcher">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAMAgMAAAD0Vc5rAAAACVBMVEUAM6DZABLyqADQNS2cAAAAFUlEQVQI12MIBYEQ7BQ+sAoEVmClAAwHF92IXHBPAAAAAElFTkSuQmCC" alt="USA Flag" class="flag active">
-          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTIwIDUyMCIgPiA8cGF0aCBmaWxsPSIjY2ZlMGU5IiBkPSJNNTgyIDY4SDE3N3YyMTVIMzcwNWwtNzUtMTEwWiIgLz4gPHBhdGggZmlsbD0iIzA3Y2M2NiIgZD0ibTI5MiAxMjIuMjQtOTUgNTAuMzhMMjkyIDIyM2w5NS01MC4zOHoiIC8+IDxwYXRoIGZpbGw9IiM0YTc4ZmYiIGQ9Ik0yOTIgMTUyLjYyYy0xMS4wNSAwLTIwIDguOTUtMjAgMjAgMCAxMS4wNCA4Ljk1IDIwIDIwIDIwczIwLTguOTYgMjAtMjBjMC0xMS4wNS04Ljk1LTIwLTIwLTIwWiIgLz4gPGNpcmNsZSBjeD0iMjkyIiBjeT0iMTcyLjYyIiByPSI3LjUiIGZpbGw9IiNmZmYiIC8+IDxwYXRoIGZpbGw9IiNhYmJmY2YiIGQ9Ik0zOTIgMjU4SDE3N2E1IDUgMCAwIDEtMTBoMjE1YTUgNSAwIDEgMSAwejBNMzkyIDEwM0gxNzdhNSA1IDAgMCAxLTExMGgyMTVhNSA1IDAgMSAxIDB6IiAvPiA8cGF0aCBmaWxsPSIjYjU0ODJmIiBkPSJNMjAzIDQyM2M4LjI4IDAgMTUgNi43MiAxNSAxNSAwIDQuMTQtMS42OCA3Ljg5LTQuNCAxMC42QTE0LjkxMiAxNC45MTIgMCAwIDEtMjAzIDQ1M2gtOTBjLTguMjggMC0xNS02LjcyLTE1LTE1IDAtNC4xNCAxLjY4LTcuODktNC40LTEwLjYgMi43MS0yLjcyMSA2LjQ2LTQuNCAxMC42LTQuNGg2NXoiIC8+IDxjaXJjbGUgY3g9IjQ3MC41IiBjeT0iMTU1LjUiIHI9IjcuNSIgZmlsbD0iIzRhNzhmZiIgLz4gPGNpcmNsZSBjeD0iNDUwLjUiIGN5PSIzMzUuNSIgcj0iNy41IiBmaWxsPSIjNGE3OGZmIiAvPiA8Y2lyY2xlIGN4PSIzMDgiIGN5PSIzODgiIHI9IjMwIiBmaWxsPSIjZmZlYzZjIiAvPiA8Y2lyY2xlIGN4PSIzMTAuNSIgY3k9IjQxNS41IiByPSI3LjUiIGZpbGw9IiM0YTc4ZmYiIC8+IDxwYXRoIGZpbGw9IiM5MTJjMWMiIGQ9Ik0yNTggNDczdjlINTh2LTljMC0xMS42IDkuNC0yMSAyMS0yMWgxNThjMTEuNiAwIDIxIDkuNCAyMSAyMXoiIC8+IDxjaXJjbGUgY3g9IjI0MC41IiBjeT0iMzM1LjUiIHI9IjcuNSIgZmlsbD0iIzRhNzhmZiIgLz4gPC9zdmc+" alt="Brazil Flag" class="flag">
+          <img src="https://img.freepik.com/vetores-gratis/fundo-da-bandeira-americana_23-2147837199.jpg" alt="USA Flag" class="flag active">
+          <img src="https://www.bandeira1.com.br/lojas/00002028/prod/brasil/nova-bordada-inteira.jpg" alt="Brazil Flag" class="flag">
         </div>
         <a href="{% url 'budget'  %}" id="hire-me" class="btn btn-outline-success" data-translate="hire_me">HIRE ME</a>
       </div>
@@ -147,8 +148,8 @@
 
 
         
-        <script src="{% static 'js/script.js' %}" async defer></script>
         <script src="{% static 'js/translations.js' %}" async defer></script>
+        <script src="{% static 'js/script.js' %}" async defer></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
             AOS.init();
